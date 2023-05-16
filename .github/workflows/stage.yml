@@ -12,7 +12,7 @@ jobs:
         uses: wpengine/github-action-wpe-site-deploy@v3
         with:
           # Deploy vars
-          WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+          WPE_SSHG_KEY_PRIVATE: ${{ secrets.EMPULS3_SSHG_KEY_PRIVATE }}
           WPE_ENV: empuls31stg
           # Deploy Options
           REMOTE_PATH: "wp-content/"
