@@ -1,0 +1,24 @@
+.pink-banner {
+  background-color: $pink;
+
+  .lead {
+    color: white;
+  }
+
+  h1 {
+    color: $yellow;
+  }
+
+  .stripe-right {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: 10;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .stripe-right {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.services-tiles {
+
+    .lead {
+        color: $pink;
+    }
+
+    .h2 {
+        color: $black;
+    }
+
+    .text-muted {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .tile {
+        background-color: white;
+        text-decoration: none;
+        border: 1px solid $grey;
+        border-radius: 20px;
+        min-height: 467px;
+        height: 467px;
+
+        .icon-bg {
+            background-color: $light-grey;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            margin: 0 auto 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: $yellow;
+                font-size: 2rem;
+            }
+        }
+
+        
+
+        h3 {
+            color: $purple;
+            text-decoration: none;
+        } 
+
+        p {
+            color: $text-muted;
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: $purple;
+            transition: background-color 0.5s ease;
+
+            .icon-bg {
+                background-color: white;
+            }
+
+            h3 {
+                color: $pink;
+                text-decoration: none;
+            }
+
+            p {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .text-muted {
+            width: 100%;
+        }
+    }
+}

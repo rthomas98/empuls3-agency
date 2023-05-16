@@ -1,0 +1,56 @@
+.we-believe {
+
+  .lead {
+    color: $pink;
+  }
+   .belief {
+     background-color: white;
+     border-radius: 20px;
+     border: 1px solid $grey;
+
+     p {
+       color: $text-muted;
+     }
+   }
+
+  .stripe-right {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    z-index: 10;
+  }
+
+  .circle-lg-x {
+    position: absolute;
+    background-color: $light-grey;
+    right: -10%;
+    top: 20%;
+  }
+
+  .grey-shape {
+    position: absolute;
+    top: 15%;
+    left: -15%;
+    z-index: 0;
+  }
+  .circle-sm {
+    position: absolute;
+    background-color: $yellow;
+    top: 10%;
+    left: 30%;
+    z-index: 100;
+  }
+  .circle-md {
+    position: absolute;
+    background-color: $pink;
+    bottom: 20%;
+    left: 40%;
+    z-index: 100;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .grey-shape, .stripe-right {
+      display: none;
+    }
+  }
+}

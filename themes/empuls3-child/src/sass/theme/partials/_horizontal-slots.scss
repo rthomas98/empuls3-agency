@@ -1,0 +1,41 @@
+.horizontal-slots {
+ background-color: $light-grey;
+
+  h2 {
+    color: $purple;
+  }
+
+.slot {
+  background-color: white;
+  border: 1px solid $grey;
+  border-radius: 20px;
+  height: 180px;
+  min-height: 180px;
+
+  h3 {
+    color: $pink;
+  }
+
+  .icon-bg {
+    background-color: $light-grey;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      color: $yellow;
+      font-size: 2rem;
+    }
+  }
+}
+  @include media-breakpoint-down(lg) {
+    .slot {
+      height: 100%;
+      min-height: 100%;
+    }
+  }
+}

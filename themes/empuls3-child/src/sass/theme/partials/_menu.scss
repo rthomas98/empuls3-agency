@@ -1,0 +1,41 @@
+.main-nav {
+    background-color: transparent;
+    color: $text-muted;
+    box-shadow: 0 0 0 transparent;
+    transition: background 0.3s ease-out;
+
+    .navbar-brand span {
+        color: $purple;
+        font-family: 'Asap', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+
+        &:hover {
+            color: $pink;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .navbar-brand span {
+            display: none;
+        }
+    }
+
+    .nav-link {
+        color: $text-muted;
+
+        &:hover {
+            color: $pink;
+        }
+    }
+
+    .btn-primary {
+        .nav-link {
+            color: white !important;
+        }
+    }
+}
+
+.scrolled {
+    background-color: white;
+}

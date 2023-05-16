@@ -1,0 +1,76 @@
+.process-tabs {
+  background-color: $purple;
+
+  .stripe-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 10;
+  }
+
+  .lead {
+    color: white;
+  }
+  h2 {
+    color: $yellow;
+  }
+
+  .nav-tabs {
+    border: none;
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: $pink;
+    position: relative;
+
+    i {
+      color: $yellow;
+    }
+
+    &:after,
+    &:after {
+      z-index: -1;
+      position: absolute;
+      top: 98.1%;
+      left: 65%;
+      margin-left: -25%;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: solid 20px $pink;
+      border-left: solid 20px transparent;
+      border-right: solid 20px transparent;
+    }
+
+    @include media-breakpoint-down(md) {
+      &:after,
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .nav-tabs .nav-link {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    background-color: white;
+    border: none;
+    color: $black;
+  }
+
+  .tab-content {
+    h3 {
+      color: white;
+    }
+    p {
+      color: white;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .stripe-left {
+      display: none;
+    }
+  }
+
+}

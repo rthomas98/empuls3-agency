@@ -1,0 +1,28 @@
+.list-section {
+
+    .lead {
+      color: $pink;
+    }
+
+    .content {
+      width: 50%;
+    }
+
+    ul {
+      li {
+        margin-bottom: 30px;
+
+        i {
+          color: $pink;
+          font-size: 35px;
+          margin-right: 20px;
+        }
+      }
+    }
+
+  @include media-breakpoint-down(lg) {
+    .content {
+      width: 100%;
+    }
+  }
+}

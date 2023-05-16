@@ -1,0 +1,52 @@
+.full-img-banner {
+  height: 75vh;
+
+  .stripe-left {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 0;
+  }
+
+  h1 {
+    color: $yellow;
+  }
+
+  .lead {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+}
+
+.purple-boxes {
+  background-color: $purple;
+
+  .icon-bg {
+    background-color: $light-grey;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      color: $yellow;
+      font-size: 2rem;
+    }
+  }
+
+  h2 {
+    color: $pink;
+    font-size: 1.5em;
+  }
+  p {
+    color: white;
+    min-height: 50px;
+  }
+}

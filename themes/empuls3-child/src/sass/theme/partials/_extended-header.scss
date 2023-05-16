@@ -1,0 +1,21 @@
+.extended-header {
+
+  .stripe-right {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 10;
+  }
+
+  .circle-lg-x {
+    background-color: $light-grey;
+    position: absolute;
+    top: 0%;
+    left: -4%;
+    z-index: 1;
+  }
+
+  .lead {
+    color: $pink;
+  }
+}

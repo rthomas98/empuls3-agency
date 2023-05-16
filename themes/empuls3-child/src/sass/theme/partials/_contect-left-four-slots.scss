@@ -1,0 +1,31 @@
+.content-left-four-slots {
+  h1 {
+    color: $purple;
+  }
+
+  .lead {
+    color: $pink;
+  }
+
+  .slot {
+    background-color: $light-grey;
+    border-radius: 20px;
+
+    h3 {
+      color: $pink;
+      font-size: 1.2em;
+    }
+  }
+  .stripe-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 10;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .stripe-left {
+      display: none;
+    }
+  }
+}

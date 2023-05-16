@@ -1,0 +1,51 @@
+.industries {
+
+    position: relative;
+
+    .lead {
+        color: $pink;
+    }
+
+    h2 {
+        color: $black;
+        width: 60%;
+        margin: 0 auto 30px auto;
+    }
+
+    .text-muted {
+        width: 60%;
+        margin: 0 auto 30px auto;
+    }
+
+    .stripe-right {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: 0;
+    }
+
+    .industry {
+        background-color: white;
+        border-radius: 20px;
+         p {
+            color: $text-muted;
+         }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .industries {
+    
+        h2 {
+            width: 100%;
+        }
+    
+        .text-muted {
+            width: 100%;
+        }
+
+        .stripe-right {
+            display: none;
+        }
+    }
+}

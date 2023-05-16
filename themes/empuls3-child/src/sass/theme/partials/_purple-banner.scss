@@ -1,0 +1,23 @@
+.purple-banner {
+  background-color: $purple;
+
+  h1 {
+    color: $yellow;
+  }
+  .lead {
+    color: white;
+  }
+
+  .stripe-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 10;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .stripe-left {
+      display: none;
+    }
+  }
+}

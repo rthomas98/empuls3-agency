@@ -1,0 +1,25 @@
+.recent-projects {
+
+  .lead {
+    color: $pink;
+  }
+
+  h3 {
+    color: $purple;
+  }
+
+  .counter {
+    span {
+      color: $pink;
+      font-size: 55px;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    p {
+      color: $grey;
+      margin: 0 !important;
+    }
+  }
+
+}

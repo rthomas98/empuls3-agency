@@ -1,0 +1,111 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.page-id-85, .page-id-3 {
+  padding-top: 80px;
+}
+
+@include media-breakpoint-down(lg) {
+  body {
+    padding-top: 50px;
+  }
+
+  .main-nav {
+    background-color: white !important;
+    color: #9b9b9b;
+    transition: background .3s ease-out;
+  }
+
+  .main-nav .nav-link {
+    color: #9b9b9b;
+    text-align: center;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+.circle-sm {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%
+}
+
+.circle-md {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%
+}
+
+.circle-lg {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%
+}
+
+#single-wrapper {
+  padding-top: 1.7rem;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle-lg-x {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%
+}
+
+@include media-breakpoint-down(lg) {
+  .circle-sm, .circle-md, .circle-lg, .circle-lg-x {
+    display: none;
+  }
+}
+
+.section-index {
+  z-index: 100;
+  position: relative;
+}
+
+.page-id-75, .postid-72, .page-id-77 {
+  .contact-form {
+    .circle-lg-x {
+      display: none;
+    }
+  }
+}
+
+.page-id-79, .page-id-508 {
+  background-color: $light-grey;
+}
+
+.postid-71, .postid-72, .postid-73, .blog, .postid-70 {
+  .main-nav .navbar-brand span {
+    color: white;
+  }
+
+  .main-nav .nav-link {
+    color: white;
+  }
+
+}
+
+.postid-71, .postid-72, .postid-73, .blog, .postid-70 {
+  .scrolled .navbar-brand span {
+    color: $black !important;
+
+    &:hover {
+      color: $pink !important;
+    }
+
+  }
+
+  .scrolled .nav-link {
+    color: $black !important;
+
+    &:hover {
+      color: $pink !important;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Poppins:wght@300;400&display=swap');
+
+@import "theme/child_theme_variables";                   // <------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap4
+@import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
+@import "assets/understrap/theme/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you don´t use the corresponding scripts/fonts comment em out
+@import "assets/fontawesome/font-awesome";                           // <------- Font Awesome Icon font
+@import "assets/underscores";                            // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/child_theme";                         // <------- Add your styles into this file
+@import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+@import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+@import "theme/partials/menu";
+@import "theme/partials/blog";
+@import "theme/partials/header-banner";
+@import "theme/partials/extended-header";
+@import "theme/partials/three-slot-header";
+@import "theme/partials/simple-banner";
+@import "theme/partials/contact-header";
+@import "theme/partials/header-img-left";
+@import "theme/partials/pink-banner";
+@import "theme/partials/contect-left-four-slots";
+@import "theme/partials/img-background-cta";
+@import "theme/partials/content-img-left";
+@import "theme/partials/process-tabs";
+@import "theme/partials/content-three-tabs";
+@import "theme/partials/full-img-banner";
+@import "theme/partials/work-gallery";
+@import "theme/partials/img-slots";
+@import "theme/partials/list-scetion";
+@import "theme/partials/footer";
+@import "theme/partials/double-imgs";
+@import "theme/partials/industries";
+@import "theme/partials/services-tiles";
+@import "theme/partials/other-services";
+@import "theme/partials/testimonials";
+@import "theme/partials/recent-projects";
+@import "theme/partials/contact";
+@import "theme/partials/our-strengths";
+@import "theme/partials/we-believe";
+@import "theme/partials/team";
+@import "theme/partials/footer-cta";
+@import "theme/partials/color-background";
+@import "theme/partials/purple-banner";
+@import "theme/partials/horizontal-slots";
+@import "theme/partials/simple-header";
+@import "theme/partials/alt-content";

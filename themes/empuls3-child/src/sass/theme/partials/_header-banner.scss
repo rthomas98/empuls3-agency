@@ -1,0 +1,78 @@
+.home-banner {
+
+    position: relative;
+
+    .section-index {
+        z-index: 100;
+    }
+
+    i {
+        font-size: 48px;
+        color: $grey;
+    }
+
+    .lead {
+        color: $pink;
+    }
+
+    .grey-shape {
+        position: absolute;
+        top: 15%;
+        left: -15%;
+        z-index: 0;
+    }
+
+    .home-img {
+        z-index: 0;
+    }
+
+    .circle-sm {
+        background: $yellow;
+        height: 47px;
+        width: 47px;
+        position: absolute;
+        right: 9%;
+        bottom: 26%;
+        z-index: 100;
+    }
+
+    .circle-md {
+        background: $purple;
+        height: 103px;
+        width: 103px;
+        position: absolute;
+        top: 11%;
+        right: 3%;
+    }
+
+    .circle-lg {
+        background: $pink;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+    }
+
+}
+
+@include media-breakpoint-down(md) {
+    .home-banner {
+        text-align: center;
+
+        .grey-shape {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .home-banner {        
+
+        text-align: center;
+
+        .circle-sm, .circle-md, .circle-lg {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.double-imgs {
+
+    background-color: $purple;
+    position: relative;
+
+    h2 {
+        color: white;
+        margin: 0 auto 30px auto;
+    }
+
+    p {
+        color: white;
+    }
+
+    .lead {
+        color: $pink;
+    }
+
+    .text-muted {
+        width: 60%;
+        margin: 0 auto 30px auto;
+    }
+
+    .stripe-right {
+        position: absolute;
+        top: 20%;
+        right: 0;
+        z-index: 0;
+    }
+
+}
+
+@include media-breakpoint-down(md) {
+    .double-imgs {
+        text-align: center;
+    }
+
+    h2, .text-muted {
+        width: 100%;
+    }
+}

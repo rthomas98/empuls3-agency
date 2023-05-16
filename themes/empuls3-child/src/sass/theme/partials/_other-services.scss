@@ -1,0 +1,32 @@
+.other-services {
+  background-color: $yellow;
+
+  .lead {
+    color: $pink;
+  }
+  h2 {
+    color: $purple;
+  }
+
+  .tile {
+    border-radius: 20px;
+    background-color: white;
+
+
+    h3 {
+      color: $pink;
+    }
+
+    p {
+      min-height: 125px;
+      height: 125px;
+    }
+
+    @include media-breakpoint-down(lg) {
+      height: auto;
+      p {
+        height: auto;
+      }
+    }
+  }
+}

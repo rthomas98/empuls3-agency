@@ -1,0 +1,78 @@
+.footer-cta {
+
+    h2 {
+        color: white;
+        z-index: 100;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    @include media-breakpoint-down(lg) {
+        h2 {
+            width: 100%;
+        }
+    }
+
+    .footer-btn {
+            z-index: 100;
+        }
+
+    .lead {
+        color: $yellow;
+        font-weight: 300;
+        z-index: 100;
+    }
+
+    .guy {
+        width: 700px;
+        margin: 0 auto;
+        z-index: 1;
+
+    }
+
+    .stripe-right {
+        position: absolute;
+        right: 0;
+        top: 9%;
+        z-index: 0;
+    }
+
+    .circle-sm {
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        z-index: 0;
+    }
+
+    .circle-md {
+        position: absolute;
+        top: 30%;
+        right:  10%;
+        z-index: 0;
+    }
+
+    .circle-lg {
+        position: absolute;
+        top: 10%;
+        left:  30%;
+        z-index: 0;
+    }
+
+    .circle-lg-x {
+        position: absolute;
+        top: 14%;
+        left: -10%;
+        width: 350px;
+        height: 350px;
+        z-index: 1;
+    }
+
+}
+
+@include media-breakpoint-down(lg) {
+    .footer-cta {
+        .circle-sm, .circle-md, .circle-lg, .circle-lg-x, .stripe-right {
+            display: none;
+        }
+    }
+}

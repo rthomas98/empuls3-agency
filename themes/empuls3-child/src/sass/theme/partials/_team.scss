@@ -1,0 +1,37 @@
+.team {
+  background-color: $purple;
+
+  .lead {
+    color: $pink;
+  }
+
+  h2 {
+    color: $yellow;
+  }
+
+  p {
+    color: white;
+  }
+
+  .member {
+
+    img {
+      border-radius: 20px;
+      height: 450px;
+      width: 100%;
+      object-fit: cover;
+    }
+    h4 {
+      color: $pink;
+    }
+    p {
+      color: white;
+    }
+  }
+
+  .stripe-left {
+    position: absolute;
+    top: 30%;
+    left: 0;
+  }
+}
