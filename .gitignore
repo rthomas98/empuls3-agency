@@ -1,5 +1,5 @@
-.gitignore
-index.php
+/.gitignore
+/index.php
 
 #---------------------------
 # Themes
