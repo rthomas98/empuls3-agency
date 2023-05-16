@@ -7,7 +7,7 @@
 /themes/*
 !/themes/empuls3-child
 
-!/advanced-cache.php
+/advanced-cache.php
 
 /ai1wm-backups/
 /aiowps_backups/
