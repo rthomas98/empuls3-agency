@@ -12,7 +12,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper pt-5" id="single-wrapper">
+<div class="wrapper pt-5" >
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
